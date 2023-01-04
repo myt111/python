@@ -188,7 +188,8 @@ group by eci,enbid,cellid,pm_date '''  % unload_date_list[i]
 if __name__ == '__main__':
     conn = trino_conn()
     table_name="pm_4g_workorder"
-    day_num=${delay_days}
+    #day_num=${delay_days}
+    day_num = -7
     expert_db_account = {"database": "expert-system", "user": "expert-system", "password": "YJY_exp#exp502",
                          "host": "133.160.191.111", "port": "5432", "options": "-c search_path=cnio"}
     process(day_num,table_name,conn,expert_db_account)

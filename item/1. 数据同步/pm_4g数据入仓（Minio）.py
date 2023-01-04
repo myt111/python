@@ -179,7 +179,7 @@ if __name__ == "__main__":
         'secret_key': '4da591f2-bd12-42d0-d918-02531e599d80',
         'secure': False
     }
-    days_num = ${delay_days}
+    days_num = -7
     date_list,time_list=  get_time_list(days_num)
     load_data_hour = upload_hour_list(date_list)
     unload_hour_list=unload_hour(time_list, load_data_hour)

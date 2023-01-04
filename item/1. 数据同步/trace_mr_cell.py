@@ -215,7 +215,8 @@ def process(day_num,table_name,expert_db_account,trace_db_account):
     
 
 if __name__ == '__main__':
-    day_num = ${delay_days}  ## 以系统时间为基准，同步 -7天数据
+
+    day_num  =-7  ## 以系统时间为基准，同步 -7天数据
     table_name = "trace_mr_cell"
     # 郑州
     trace_db_account = {"database": "sk_data", "user": "sk", "password": "CTRO4I!@#=",
