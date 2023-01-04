@@ -344,6 +344,7 @@ def postgre_upload_hw(data):
     print("alarm_hw_day sync: success")
 
 
+
 def postgre_upload_zx(data):
     # engine = create_engine('postgresql://expert-system:YJY_exp#exp502@10.1.77.51:5432/expert-system')
     # data.to_sql("alarm_hz_day", engine, schema="searching", index=False, if_exists='append', method='multi')
