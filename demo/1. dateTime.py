@@ -41,5 +41,7 @@ if __name__ == '__main__':
     print("yestoday: " + yestoday)
     print("today: " + today)
 
+    print("test")
+
 
 
